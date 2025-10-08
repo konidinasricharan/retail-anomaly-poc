@@ -1,19 +1,31 @@
 import pandas as pd
 from sklearn.ensemble import IsolationForest
+import matplotlib.pyplot as plt
 
-# Simulated data
-data = {
-    'day': range(1, 31),
-    'sales': [200, 210, 205, 195, 1000, 215, 220, 230, 900, 210, 205, 198, 202, 199, 300, 205, 210, 205, 1005, 215, 218, 212, 209, 207, 500, 220, 215, 214, 900, 205]
-}
+# Load the sample CSV
+data = pd.read_csv('data.csv')
 
-df = pd.DataFrame(data)
-
-# Model
+# Fit the model
 model = IsolationForest(contamination=0.1, random_state=42)
-df['anomaly'] = model.fit_predict(df[['sales']])
+data['anomaly'] = model.fit_predict(data[['sales']])
 
-# Display anomalies
-anomalies = df[df['anomaly'] == -1]
+# Print anomalies
 print("Anomalies found:")
-print(anomalies)
+print(data[data['anomaly'] == -1])
+
+# Plot graph
+plt.figure(figsize=(10,5))
+plt.plot(data['day'], data['sales'], label='Sales', marker='o')
+plt.scatter(
+    data[data['anomaly'] == -1]['day'],
+    data[data['anomaly'] == -1]['sales'],
+    color='red',
+    label='Anomalies',
+    s=100
+)
+plt.title('Retail Sales Anomaly Detection')
+plt.xlabel('Day')
+plt.ylabel('Sales')
+plt.legend()
+plt.grid(True)
+plt.show()
