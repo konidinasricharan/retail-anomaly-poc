@@ -40,14 +40,6 @@ Anomalies found:
 - Technologies used: Python, Pandas, Scikit-Learn, Plotly.
 
 
-
-### Example Output:
-## 🧠 Day 2 — Interactive Anomaly Visualization (Plotly)
-
-- Built an interactive anomaly detection chart using Plotly.
-- Visualizes normal vs anomaly points on a dynamic graph.
-- Technologies used: Python, Pandas, Scikit-Learn, Plotly.
-
 ### Example Output:
 Anomalies found (rows):
  day  sales
