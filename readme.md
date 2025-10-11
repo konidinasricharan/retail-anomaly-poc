@@ -66,7 +66,17 @@ Anomalies found (rows):
 - This shows my **ability to communicate machine learning insights** visually — a skill valuable for research, analytics, and AI engineering roles.
 - Contributes to the “original contribution / impactful demonstration” criterion by producing **publicly verifiable code** and outputs.
 
-### 🚀 Next Steps (Day 3 Preview)
-- Document anomaly analysis more deeply using **Jupyter Notebook**.
-- Add markdown commentary and data storytelling for better reproducibility.
+---
 
+### 🧭 Day 3 — Retail Anomaly Detection (Notebook + Report)
+**Goal:** Convert anomaly detection script into a Jupyter Notebook and PDF report.  
+**What I Did:**  
+- Created `retail_anomaly_demo.ipynb` using Isolation Forest.  
+- Visualized anomalies using Matplotlib.  
+- Exported a clean PDF report for documentation.  
+**Output Files:**  
+- `retail_anomaly_demo.ipynb`  
+- `retail_anomaly_demo_report.pdf`  
+**Result:** Successfully demonstrated anomaly detection and documented results visually.
+
+---
