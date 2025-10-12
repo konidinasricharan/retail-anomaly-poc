@@ -80,3 +80,38 @@ Anomalies found (rows):
 **Result:** Successfully demonstrated anomaly detection and documented results visually.
 
 ---
+### 🧭 Day 4
+**Goal:** Use a real dataset from Kaggle to perform retail sales analysis and detect anomalies with Isolation Forest.
+
+**🧠 Tasks Done**
+- Downloaded the Supermarket Sales dataset from Kaggle and saved as sales.csv.
+- Loaded the dataset in a Jupyter Notebook using python -m notebook.
+- Performed EDA (Exploratory Data Analysis) and data cleaning.
+- Visualized sales distribution and product line revenues with matplotlib & seaborn.
+- Applied Isolation Forest to detect sales anomalies.
+- Highlighted anomalous transactions on a time-series plot.
+- Generated a PDF report from the HTML output and committed to GitHub.
+**📊 Key Visuals & Insights**
+- Histogram: Distribution of Total Sales values.
+- Bar Chart: Total Sales by Product Line (ranked highest to lowest).
+- Boxplot: Sales distribution by weekday.
+- Time-Series Plot: Anomalies highlighted in red over sales timeline.
+- Summary: Anomalies ≈ 1 % of transactions (rare but significant).
+
+
+### 🧭 Day 5
+**Goal:** Publish the project publicly on LinkedIn and Medium to showcase the results and share learnings.
+**🧠 Tasks Done**
+- Selected 2 visuals from Day 4 (Bar Chart + Anomaly Plot) for publication.
+- Posted a short summary of the Retail Anomaly Detection PoC on LinkedIn.
+- Published a detailed article on Medium explaining the process, dataset, and results.
+- Added both post links and screenshots to the evidence sheet.
+# LinkedIn
+# → created post using provided Day 5 text and attached images.
+# Medium
+# → created new story, pasted full article text, added charts, published.
+# Evidence updated in spreadsheet
+**✅ Outcome**
+- Demonstrated public communication and dissemination skills.
+- Showcased the project to a professional audience on both LinkedIn and Medium.
+- Prepared the project for portfolio and final O1 submission.
