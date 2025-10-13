@@ -115,3 +115,18 @@ Anomalies found (rows):
 - Demonstrated public communication and dissemination skills.
 - Showcased the project to a professional audience on both LinkedIn and Medium.
 - Prepared the project for portfolio and final O1 submission.
+
+## 🔬 **Day 6 — Real-Time Retail Streaming Anomaly Detection**
+
+**Date:** 2025-10-13  
+**Goal:** Simulate real-time data flow and detect anomalies dynamically.
+
+### 🧠 Tasks Done
+- Created streaming data simulation for 50 days of retail sales.  
+- Implemented live anomaly detection with Isolation Forest.  
+- Visualized live updates in Jupyter Notebook.  
+- Exported HTML report and committed to GitHub.
+### 📊 Key Outputs
+- Animated time-series anomaly chart
+- HTML report
+- GitHub commit proof
