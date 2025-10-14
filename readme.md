@@ -130,3 +130,25 @@ Anomalies found (rows):
 - Animated time-series anomaly chart
 - HTML report
 - GitHub commit proof
+
+## 🧭 Day 7 — Mini Research Paper & Contribution Packet
+
+- 📅 Date: October 14, 2025
+- 🎯 Goal: Consolidate all previous work (Days 0–6) into a short research-style “mini paper” — a reproducible artifact showing your      ability to plan, execute, and document an ML project end-to-end.
+## 🧩 Steps Completed
+- Created mini_paper.md
+- Built converter script using Python’s markdown library to generate a polished HTML report.
+- Committed & pushed all artifacts to GitHub:
+    - mini_paper.md
+    - mini_paper.html
+    - mini_paper_report.pdf
+    - convert_md_to_html.py
+- Captured screenshots for Drive evidence: HTML preview, PDF report, GitHub commit, and final folder structure.
+- Updated O1 Evidence Sheet with entry ID 7 — “Mini Paper: Retail Anomaly Detection.”
+## 🧠 Key Learnings
+- Converted research progress into a citable, shareable artifact (important for O-1 visa documentation).
+- Learned Markdown-to-HTML/PDF conversion and lightweight report formatting without LaTeX.
+- Understood how to summarize ML projects into structured technical documentation.
+- Practiced creating reproducible public deliverables (GitHub + Drive + Evidence Index).
+## ✅ Outcome
+- A professional mini research paper summarizing all prior project work — establishing a strong, documented technical contribution.

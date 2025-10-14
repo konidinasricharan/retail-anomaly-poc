@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mini Paper - Retail Anomaly Detection</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; line-height:1.4; color:#222 }
+    h1,h2,h3 { color: #0b3d91; }
+    pre { background:#f6f8fa; padding:10px; border-radius:6px; }
+    table { border-collapse: collapse; width:100%; }
+    table, th, td { border: 1px solid #ddd; padding: 8px; }
+    code { background:#eee; padding:2px 4px; border-radius:4px; }
+  </style>
+</head>
+<body>
+<h1>Detecting Retail Sales Anomalies — Mini Paper</h1>
+<p><strong>Author:</strong> Sri Charan Konidina<br />
+<strong>Date:</strong> October 14, 2025<br />
+<strong>Project:</strong> retail-anomaly-poc (GitHub) — https://github.com/konidinasricharan/retail-anomaly-poc</p>
+<h2>Abstract</h2>
+<p>This mini-paper summarizes a proof-of-concept pipeline to detect anomalous retail transactions using Isolation Forest on synthetic and real retail datasets (Kaggle Supermarket Sales). The work includes interactive and static visualizations, a Jupyter notebook, a streaming simulation, and a short public dissemination effort (LinkedIn + Medium). The artifact documents: data sources, model choices, results, and a suggested roadmap for productionization.</p>
+<h2>1. Motivation</h2>
+<p>Retailers suffer revenue loss and operational pain from anomalous transactions (fraud, mispricing, refunds, mis-scans). Rapid detection reduces losses and improves auditability. The aim was to build a compact, reproducible pipeline demonstrating feasibility using accessible tools.</p>
+<h2>2. Data</h2>
+<ul>
+<li>Synthetic sample for initial POC (Days 0–2).  </li>
+<li>Kaggle "Supermarket Sales" dataset (Day 4) — saved as <code>sales.csv</code>.  </li>
+<li>Simulated streaming sample for real-time demonstration (Day 6).</li>
+</ul>
+<h2>3. Methods</h2>
+<ul>
+<li>Preprocessing: basic cleaning, parse <code>Date</code>/<code>Time</code> where available.</li>
+<li>Unsupervised detection: <code>IsolationForest</code> (scikit-learn) with small contamination rates (0.5–1% for large datasets; 8–10% for toy streams to highlight anomalies).</li>
+<li>Visualizations: Matplotlib (static), Plotly (interactive), and live-updating plots for streaming demo.</li>
+</ul>
+<h2>4. Experiments &amp; Results</h2>
+<ul>
+<li><strong>Baseline (Day 0–2):</strong> small PoC using IsolationForest; demo script <code>demo.py</code> detected synthetic outliers and shows reproducible output examples.</li>
+<li><strong>Real data (Day 4):</strong> EDA on Kaggle supermarket dataset (<code>retail_sales_analysis.ipynb</code>); histogram of sales, total-by-product-line bar chart, weekday boxplots; IsolationForest found ~1% anomalous transactions (high-value spikes).</li>
+<li><strong>Streaming demo (Day 6):</strong> <code>retail_stream_anomaly.ipynb</code> simulates incremental data and visualizes anomalies appearing in real time.</li>
+</ul>
+<p>Key numeric summary:
+- Dataset rows (example): see <code>retail_sales_analysis.ipynb</code> head and info.
+- Anomalies detected (example counts): reported inline in the notebooks and PDF exports.</p>
+<h2>5. Reproducibility &amp; Files</h2>
+<p>All code, notebooks, and reports are in the repo:
+- <code>demo.py</code> — baseline PoC
+- <code>visual_demo.py</code> — interactive Plotly demo
+- <code>retail_anomaly_demo.ipynb</code>, <code>retail_anomaly_demo_report.pdf</code> — Day 3 notebook + report
+- <code>retail_sales_analysis.ipynb</code>, <code>retail_sales_analysis_report.pdf</code> — Day 4 real-data analysis
+- <code>retail_stream_anomaly.ipynb</code>, <code>retail_stream_anomaly_report.html</code> — Day 6 streaming demo
+- <code>mini_paper.md</code>, <code>mini_paper_report.pdf</code> — this artifact</p>
+<h2>6. Discussion</h2>
+<ul>
+<li>IsolationForest is quick and interpretable for simple anomaly detection; for temporal patterns, a sequence model (LSTM-autoencoder) or statistical control charts may be superior.</li>
+<li>Visualizations (interactive + static) accelerate human triage.</li>
+<li>For production: ingest streaming data (Kafka), maintain a model registry, backfill labels where available, and set up alerting dashboards.</li>
+</ul>
+<h2>7. Next Steps (roadmap)</h2>
+<ol>
+<li>Build LSTM autoencoder baseline for temporal anomalies (Q4 2025).  </li>
+<li>Develop a Streamlit dashboard for triage and human-in-the-loop verification.  </li>
+<li>Prepare a workshop submission or short conference demo (submit abstract + notebook).  </li>
+<li>Gather expert recommendation letters and invite review from a retail analytics practitioner.</li>
+</ol>
+<h2>8. How to run (quick)</h2>
+<p>-```bash</p>
+<h2>Example: run baseline PoC</h2>
+<p>python demo.py</p>
+<h1>Run interactive Plotly demo</h1>
+<p>python visual_demo.py</p>
+<h1>Start Jupyter for notebooks</h1>
+<p>python -m notebook</p>
+<h2>9. Acknowledgements &amp; Contacts</h2>
+<p>Author: Sri Charan Konidina — Applied Security &amp; Analytics
+GitHub: https://github.com/konidinasricharan/retail-anomaly-poc
+LinkedIn: https://www.linkedin.com/in/sricharankonidina/</p>
+</body>
+</html>
