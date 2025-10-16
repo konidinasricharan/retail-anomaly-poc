@@ -170,3 +170,16 @@ Anomalies found (rows):
 - Project is now publicly accessible online.
 - Acts as an independent, timestamped record of your original work.
 - Strengthens my O-1 “original contribution” and “public dissemination” evidence.
+
+### 🧭 Day 9 — Interactive Retail Anomaly Dashboard (Streamlit)
+**Date:** October 16, 2025  
+**Goal:** Created an interactive Streamlit dashboard for anomaly detection.  
+**Highlights:**
+- Added a web-based UI for users to upload CSVs and analyze retail data.  
+- Integrated Isolation Forest to mark anomalies visually.  
+- Dynamic contamination slider for flexible model tuning.  
+**Output:**
+Interactive dashboard visible at http://localhost:8501  
+Displays anomaly points (in red) and summary table.
+
+
