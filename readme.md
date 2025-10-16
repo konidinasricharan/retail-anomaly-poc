@@ -152,3 +152,21 @@ Anomalies found (rows):
 - Practiced creating reproducible public deliverables (GitHub + Drive + Evidence Index).
 ## ✅ Outcome
 - A professional mini research paper summarizing all prior project work — establishing a strong, documented technical contribution.
+
+## 🧭 Day 8 — Publish Project on GitHub Pages  
+**📅 Date:** October 16, 2025  
+**🎯 Goal:** Make anomaly detection project publicly accessible online through GitHub Pages — turning mini research project into a live interactive portfolio artifact.  
+### 🧩 Step Summary  
+- Converted project notebook and summary into a clean HTML page.  
+- Added `index.html` to the repository root for GitHub Pages.  
+- Configured GitHub Pages to deploy from the **main branch (root folder)**.  
+- Verified that the site loads properly online.  
+- Documented the project as an official **“public evidence”** link.  
+### 🧠 What Was Done  
+- Generated a readable HTML report version of the project using:  
+  ```bash
+- notebook index.html
+### 🧠 Outcome
+- Project is now publicly accessible online.
+- Acts as an independent, timestamped record of your original work.
+- Strengthens my O-1 “original contribution” and “public dissemination” evidence.
