@@ -182,4 +182,15 @@ Anomalies found (rows):
 Interactive dashboard visible at http://localhost:8501  
 Displays anomaly points (in red) and summary table.
 
+## 🧭 Day 10 — Retail Anomaly Interactive Dashboard
+**Goal: Build a live interactive dashboard that detects anomalies from any uploaded CSV file.**
+## What I Did: 
+- Created retail_anomaly_dashboard.py using Streamlit for real-time interaction.
+- Added file upload functionality to analyze any dataset dynamically.
+- Implemented Isolation Forest to detect anomalies instantly upon upload.
+- Visualized anomalies with red markers on dynamic charts and displayed a summary table.
+## Output Files:
+- retail_anomaly_dashboard.py
+- Result: Built a fully interactive AI dashboard where users can upload datasets, visualize anomalies live, and view detailed detection summaries — showcasing real-world machine learning and dashboard development skills.
+
 
