@@ -193,4 +193,15 @@ Displays anomaly points (in red) and summary table.
 - retail_anomaly_dashboard.py
 - Result: Built a fully interactive AI dashboard where users can upload datasets, visualize anomalies live, and view detailed detection summaries — showcasing real-world machine learning and dashboard development skills.
 
+### 🧭 Day 11 — AI Resume Analyzer (Streamlit)
+**Goal:** Create an AI-powered app that scores resumes for AI/ML readiness potential.  
+**What I Did:**  
+- Built a Streamlit app that analyzes resume text using NLP-based keyword detection.  
+- Added scoring logic for AI keywords and achievements.  
+- Produced a dynamic feedback interface with recommendations.  
+**Output Files:**  
+- `resume_analyzer_app.py`  
+**Result:** Working AI app that evaluates resumes and provides resume score  feedback interactively.
+
+
 
