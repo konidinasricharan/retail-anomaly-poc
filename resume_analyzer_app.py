@@ -1,42 +1,67 @@
 import streamlit as st
-from transformers import pipeline
-import re
+import pandas as pd
+import matplotlib.pyplot as plt
+from io import StringIO
 
-st.set_page_config(page_title="AI Resume Analyzer", layout="wide")
+st.set_page_config(page_title="AI Resume Analyzer Pro", page_icon="", layout="centered")
 
-st.title("🤖 AI Resume Analyzer")
-st.write("Upload your resume text and see how strong it is for AI/ML-related keywords")
+st.title(" AI Resume Analyzer — Enhanced Edition")
 
-# Input
-resume_text = st.text_area("Paste your resume text below:", height=300)
+uploaded_file = st.file_uploader("📄 Upload your resume (TXT format preferred)", type=["txt"])
 
-# Simple keyword sets
-ai_keywords = ["machine learning", "deep learning", "neural network", "ai", "nlp", "transformer", "python", "data", "analytics", "research", "paper", "publication", "project", "github", "tensorflow", "pytorch"]
-achievements = ["award", "grant", "recognition", "fellowship", "scholarship", "presentation", "conference", "innovation"]
+ai_keywords = [
+    "artificial intelligence", "machine learning", "deep learning", "python",
+    "pytorch", "tensorflow", "data analysis", "research", "neural network",
+    "nlp", "computer vision", "autonomous", "predictive", "analytics",
+    "openai", "llm", "transformer", "fine-tuning", "prompt", "ai"
+]
 
-if st.button("Analyze Resume"):
-    if not resume_text.strip():
-        st.warning("Please paste your resume text first.")
+achievements = [
+    "led", "published", "awarded", "patent", "research", "developed",
+    "presented", "innovated", "mentored", "recognized"
+]
+
+if uploaded_file:
+    text = uploaded_file.read().decode("utf-8")
+    text_lower = text.lower()
+
+    # Count keyword frequency
+    keyword_counts = {kw: text_lower.count(kw) for kw in ai_keywords if kw in text_lower}
+    achievement_counts = {ach: text_lower.count(ach) for ach in achievements if ach in text_lower}
+
+    df_keywords = pd.DataFrame(list(keyword_counts.items()), columns=["Keyword", "Count"])
+    df_achievements = pd.DataFrame(list(achievement_counts.items()), columns=["Achievement", "Count"])
+
+    st.subheader("📊 Keyword Frequency Visualization")
+    if not df_keywords.empty:
+        fig, ax = plt.subplots()
+        df_keywords.plot(kind="barh", x="Keyword", y="Count", ax=ax, color="skyblue", legend=False)
+        ax.set_xlabel("Frequency")
+        ax.set_ylabel("AI Keywords")
+        ax.set_title("AI Keyword Distribution in Resume")
+        st.pyplot(fig)
     else:
-        text_lower = resume_text.lower()
+        st.warning("No AI-related keywords found in the resume.")
 
-        ai_score = sum(1 for kw in ai_keywords if kw in text_lower)
-        achievement_score = sum(1 for kw in achievements if kw in text_lower)
+    st.subheader("🏆 Achievement Keywords Found")
+    st.dataframe(df_achievements)
 
-        total_score = ai_score * 2 + achievement_score
+    # Prepare downloadable report
+    report_content = StringIO()
+    report_content.write("AI Resume Analyzer Report\n\n")
+    report_content.write("AI Keywords Found:\n")
+    for kw, count in keyword_counts.items():
+        report_content.write(f"{kw}: {count}\n")
+    report_content.write("\nAchievements Found:\n")
+    for ach, count in achievement_counts.items():
+        report_content.write(f"{ach}: {count}\n")
 
-        st.subheader("📊 Resume Analysis Results:")
-        st.write(f"**AI Keywords Found:** {ai_score}")
-        st.write(f"**Achievements Found:** {achievement_score}")
+    st.download_button(
+        label="📥 Download Analysis Report (.txt)",
+        data=report_content.getvalue(),
+        file_name="resume_analysis_report.txt",
+        mime="text/plain"
+    )
 
-        # Basic advice
-        if total_score < 10:
-            st.error("⚠️ Needs Improvement: Add more AI/ML projects, technical keywords, and achievements.")
-        elif total_score < 20:
-            st.warning("🟡 Good Start: Add more measurable impact and leadership points.")
-        else:
-            st.success("✅ Strong Resume: You have good AI/ML alignment and supporting achievements!")
-
-        # Display extracted keywords
-        found_keywords = [kw for kw in ai_keywords + achievements if kw in text_lower]
-        st.write("**Matched Keywords:**", ", ".join(found_keywords))
+else:
+    st.info("👆 Please upload your resume to start analysis.")
