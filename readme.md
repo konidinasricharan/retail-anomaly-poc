@@ -203,5 +203,16 @@ Displays anomaly points (in red) and summary table.
 - `resume_analyzer_app.py`  
 **Result:** Working AI app that evaluates resumes and provides resume score  feedback interactively.
 
+### 🧠 Day 12 — Resume Analyzer Visualization & Download Report
+**Goal:** Enhance the AI Resume Analyzer with visual insights and a downloadable report.  
+**What I Did:**  
+- Added interactive keyword frequency visualization (Matplotlib).  
+- Displayed achievement-related terms in a clean dataframe.  
+- Enabled one-click `.txt` report download.  
+**Output Files:**  
+- `resume_analyzer_app.py`  
+- `resume_analysis_report.txt`  
+**Result:** Built a more user-friendly and data-driven resume analyzer that provides both insights and exportable documentation.
+
 
 
