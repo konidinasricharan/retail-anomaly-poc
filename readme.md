@@ -214,5 +214,16 @@ Displays anomaly points (in red) and summary table.
 - `resume_analysis_report.txt`  
 **Result:** Built a more user-friendly and data-driven resume analyzer that provides both insights and exportable documentation.
 
-
-
+### 🧭 Day 13 — AI Resume Analyzer Enhancement (Skill Extraction & Scoring)
+**Goal:** Extend the AI Resume Analyzer by adding NLP-powered skill detection and match scoring.
+**Tasks Completed:**
+- Integrated spaCy for keyword-based skill extraction
+- Designed an automatic resume skill scoring engine
+- Created Streamlit-based visual interface with score chart
+- Uploaded TXT resume, extracted key skills, and visualized presence
+- Added results and screenshots to evidence repository
+**Evidence Added:**
+- `resume_analyzer_enhanced.py`
+- `resume_analyzer_enhanced_screenshot1.png`
+- `resume_analyzer_enhanced_screenshot2.png`
+**Outcome:** Demonstrated AI-based resume scoring and visualization, progressing from prototype to intelligent NLP-enabled system.
