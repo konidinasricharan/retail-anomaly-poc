@@ -227,3 +227,16 @@ Displays anomaly points (in red) and summary table.
 - `resume_analyzer_enhanced_screenshot1.png`
 - `resume_analyzer_enhanced_screenshot2.png`
 **Outcome:** Demonstrated AI-based resume scoring and visualization, progressing from prototype to intelligent NLP-enabled system.
+
+---
+
+### 🧭 Day 14 — Resume Comparison Dashboard (Multi-Resume AI Analyzer)
+**Goal:** Build a multi-resume AI dashboard that compares skill match across multiple candidates.
+**Tasks Completed:**
+- Developed Streamlit app for multiple resume uploads
+- Used spaCy NLP for skill extraction and scoring
+- Created comparison heatmap using Seaborn and Matplotlib
+- Visualized candidate skill match percentages and best-fit ranking
+**Evidence Added:**
+- `resume_comparison_dashboard.py`
+**Outcome:** Demonstrated multi-document AI comparison, showing the ability to scale single-resume NLP analysis into a full comparative analytics dashboard.
