@@ -240,3 +240,22 @@ Displays anomaly points (in red) and summary table.
 **Evidence Added:**
 - `resume_comparison_dashboard.py`
 **Outcome:** Demonstrated multi-document AI comparison, showing the ability to scale single-resume NLP analysis into a full comparative analytics dashboard.
+
+---
+
+### 🧭 Day 15 — Resume Summary Generator (OpenAI Integration)
+**Goal:** Extend the AI Resume Analyzer to generate professional summaries and export them as PDFs.
+
+**Tasks Completed:**
+- Integrated OpenAI GPT model for text generation
+- Created Streamlit app for single-resume summarization
+- Automated PDF export using FPDF library
+- Enhanced AI pipeline for real-world HR automation
+
+**Evidence Added:**
+- `resume_summary_generator.py`
+- Screenshots (Summary UI, PDF Export)
+- `.env` configuration for secure API usage
+
+**Outcome:** Demonstrated generative AI capability by transforming raw resumes into structured, downloadable summaries — proving end-to-end NLP automation and product scalability.
+
