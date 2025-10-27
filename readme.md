@@ -259,3 +259,17 @@ Displays anomaly points (in red) and summary table.
 
 **Outcome:** Demonstrated generative AI capability by transforming raw resumes into structured, downloadable summaries — proving end-to-end NLP automation and product scalability.
 
+## Day 16 — AI Resume Matching System Integration
+
+### Description
+- Integrated **AI Resume Matching System** that ranks multiple resumes against a job description.
+- Generates **match score and reasoning** using GPT-4 model.
+- Added **visual analytics (bar chart)** to show ranking.
+- This enhancement evolves the Resume Analyzer into a **full AI Recruitment Assistant** capable of candidate screening automation.
+
+### Evidence
+- File: `resume_matcher.py`
+- Output: Resume match scores printed in terminal
+- Visualization: Matplotlib bar chart generated locally
+
+
