@@ -272,4 +272,34 @@ Displays anomaly points (in red) and summary table.
 - Output: Resume match scores printed in terminal
 - Visualization: Matplotlib bar chart generated locally
 
+## Day 17 — AI Recruitment Insights Dashboard
+**Type:** AI Application Enhancement  
+**URL:** [GitHub Repository](https://github.com/konidinasricharan/retail-anomaly-poc)
+
+### Description
+- Extended the **AI Recruitment Assistant** into a **Recruitment Insights Dashboard**.
+- Added keyword extraction, skill coverage chart, and AI-generated pool analysis.
+- Integrated **Matplotlib** for interactive charts inside Streamlit.
+- Provides recruiters with a visual and narrative overview of candidate quality and skill trends.
+
+### Evidence
+- File: `resume_insight_dashboard.py`  
+- Run Command: `streamlit run resume_insight_dashboard.py`  
+- Output: Interactive dashboard with candidate insights, skill analytics, and AI-generated recommendations.
+
+## Day 18 — AI Resume Ranking & Feedback System  
+**Type:** AI Application Enhancement  
+**URL:** [GitHub Repository](https://github.com/konidinasricharan/retail-anomaly-poc)
+
+### Description
+- Built a Resume Ranking and Feedback System extending the AI Recruitment Assistant.  
+- Implements automated ranking, personalized feedback, and CSV export.  
+- Provides visual candidate score distribution and recruiter recommendations via AI.  
+
+### Evidence
+- File: `resume_ranking_system.py`  
+- Run: `streamlit run resume_ranking_system.py`  
+- Output: Ranked dashboard with AI feedback and CSV report.  
+
+
 
