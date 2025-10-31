@@ -301,5 +301,16 @@ Displays anomaly points (in red) and summary table.
 - Run: `streamlit run resume_ranking_system.py`  
 - Output: Ranked dashboard with AI feedback and CSV report.  
 
+## Day 19 — AI Shortlisting Assistant with Job Fit Reasoning
+**Type:** AI Explainability & Decision Support  
 
+### Description
+- Added Smart Shortlisting Assistant to automatically shortlist candidates using AI reasoning.  
+- Introduced threshold-based selection and AI explanations for each shortlisted candidate.  
+- Implemented exportable CSV for recruiter reports and integrated recruiter summary generation.
+
+### Evidence
+- File: `ai_shortlisting_assistant.py`  
+- Run: `streamlit run ai_shortlisting_assistant.py`  
+- Output: Shortlist reasoning dashboard + CSV export  
 
