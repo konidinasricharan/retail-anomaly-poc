@@ -314,3 +314,24 @@ Displays anomaly points (in red) and summary table.
 - Run: `streamlit run ai_shortlisting_assistant.py`  
 - Output: Shortlist reasoning dashboard + CSV export  
 
+### Day 20 — AI Recruitment Analytics Dashboard (2025-10-31)
+
+- Goal: Extend the resume shortlisting system into a full analytics dashboard that provides insights, score distribution, keyword trends, and generates an AI Hiring Summary report.
+
+### What was done today
+- Created a new Streamlit app: ai_recruitment_dashboard.py
+- Added CSV upload support for shortlisted_candidates.csv
+- Extracted and cleaned score values for analysis
+- Implemented a score distribution bar chart
+- Extracted frequent words from AI Analysis to identify common skill themes
+- Added a button to generate AI Hiring Summary Report
+- Automatically saves the summary to:
+- ai_hiring_summary.txt
+- Prepared the dashboard as an advanced stage recruitment analytics tool
+### Files Added
+- ai_recruitment_dashboard.py
+- ai_hiring_summary.txt (auto-generated after summary step)
+### Evidence Added
+- Screenshot of dashboard interface
+- Screenshot of score chart + keyword chart
+- AI Hiring Summary text file added to Google Drive
