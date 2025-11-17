@@ -314,7 +314,7 @@ Displays anomaly points (in red) and summary table.
 - Run: `streamlit run ai_shortlisting_assistant.py`  
 - Output: Shortlist reasoning dashboard + CSV export  
 
-### Day 20 — AI Recruitment Analytics Dashboard (2025-10-31)
+### Day 20 — AI Recruitment Analytics Dashboard
 
 - Goal: Extend the resume shortlisting system into a full analytics dashboard that provides insights, score distribution, keyword trends, and generates an AI Hiring Summary report.
 
