@@ -1,3 +1,11 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17644837.svg)](https://doi.org/10.5281/zenodo.17644837)
+## 📘 Citation
+If you use this work, please cite:
+**Konidina, Sri Charan (2025). _Retail AI Analytics Whitepaper — Anomaly Detection, Real-Time Retail ML, and AI Recruitment Systems._ Zenodo. https://doi.org/10.5281/zenodo.17644837**
+
+
+
+
 # Retail Anomaly Detection - Proof of Concept (PoC)
 
 This demo detects unusual sales or inventory patterns using Isolation Forest (AI-based anomaly detection).
@@ -352,4 +360,39 @@ This whitepaper documents the development and evaluation of:
 It contains methodology, dataset descriptions, experimental results, visualizations, and next steps.
 
 **Evidence:** Public PDF on GitHub + GitHub Release (optionally archived on Zenodo for DOI).
+
+## 📅 Day 22 — Paper #2: AI Recruitment System Technical Deep-Dive  
+**Date:** November 19 2025  
+**Type:** Technical Paper / Documentation  
+
+### 📝 Summary  
+Today, I authored **Paper #2 — "AI Recruitment System: Architecture, Evaluation & LLM-Based Ranking"**, a full technical deep-dive describing how my AI recruitment system works end-to-end.  
+This paper includes:
+
+- Full system architecture  
+- Resume ingestion → Job description parsing → LLM ranking pipeline  
+- Score extraction logic  
+- Streamlit analytics dashboard  
+- Evaluation methodology  
+- Prompt engineering strategy  
+- Future improvements  
+- Real ATS applicability  
+
+This serves as strong **Evidence** under:  
+✔️ Original Contribution  
+✔️ Authorship  
+✔️ Evidence of Expertise  
+✔️ Technical Documentation  
+
+### 📂 Files Added  
+- `AI_Recruitment_Technical_Paper.md`  
+- `assets/day23/` (optional screenshots)  
+
+### 📌 Steps Completed  
+- Wrote full 9-section technical paper  
+- Added Markdown file to GitHub  
+- Updated evidence spreadsheet  
+- Prepared content for future DOI submission / publication  
+
+
 
