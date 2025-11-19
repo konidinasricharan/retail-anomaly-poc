@@ -335,3 +335,21 @@ Displays anomaly points (in red) and summary table.
 - Screenshot of dashboard interface
 - Screenshot of score chart + keyword chart
 - AI Hiring Summary text file added to Google Drive
+
+---
+
+### 🧭 Day 21 — Whitepaper: Retail AI Analytics & Recruitment Assistant
+**Goal:** Publish a technical whitepaper that consolidates Days 0–20 into a reproducible research-style report.
+
+**Files Added:**
+- `Retail_AI_Analytics_Whitepaper.md`
+- `Retail_AI_Analytics_Whitepaper.pdf`
+
+**Summary:**  
+This whitepaper documents the development and evaluation of:
+1. A Retail Anomaly Detection proof-of-concept (Isolation Forest + streaming simulation).  
+2. An AI Recruitment Assistant (resume scoring, comparison, shortlisting, and analytics dashboards).  
+It contains methodology, dataset descriptions, experimental results, visualizations, and next steps.
+
+**Evidence:** Public PDF on GitHub + GitHub Release (optionally archived on Zenodo for DOI).
+
