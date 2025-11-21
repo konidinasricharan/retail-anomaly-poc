@@ -394,5 +394,19 @@ This serves as strong **Evidence** under:
 - Updated evidence spreadsheet  
 - Prepared content for future DOI submission / publication  
 
+## 📅 Day 24 — Medium Article #2 (AI Recruitment)
+
+**Task:** Published a full Medium article titled *“AI in Recruitment: How Resume Scoring & Hiring Analytics Transform Talent Selection”*.
+
+**Why this matters:**  
+This article demonstrates public dissemination of expertise and supports authorship & original contributions.
+
+**Link:** https://medium.com/@konidinasricharan/ai-in-recruitment-how-resume-scoring-hiring-analytics-transform-talent-selection-20fb1f0e094c
+
+**Evidence Added:**  
+- Screenshots  
+- URL  
+
+
 
 

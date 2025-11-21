@@ -10,7 +10,7 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 st.set_page_config(page_title="AI Resume Summary Generator", layout="wide")
-st.title("🧠 AI Resume Summary Generator")
+st.title("AI Resume Summary Generator")
 st.write("Upload a resume, and the AI will generate a concise professional summary with optional PDF export.")
 
 uploaded_file = st.file_uploader("Upload Resume (TXT only)", type=["txt"])
