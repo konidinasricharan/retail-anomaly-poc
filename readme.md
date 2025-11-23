@@ -407,6 +407,17 @@ This article demonstrates public dissemination of expertise and supports authors
 - Screenshots  
 - URL  
 
+## 📅 Day 25 — LinkedIn Research Thread
+
+**Task:** Published a 7-part LinkedIn research thread titled *“20-Day AI Journey: From Retail Anomalies to AI Recruitment Systems.”*
+
+**Includes:**
+- Breakdown of all projects (Days 0–20)
+- Public dissemination of technical expertise
+- Thread with engagement + screenshots for evidence
+
+**Link:** (https://www.linkedin.com/in/sricharankonidina/)
+
 
 
 
