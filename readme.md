@@ -418,6 +418,21 @@ This article demonstrates public dissemination of expertise and supports authors
 
 **Link:** (https://www.linkedin.com/in/sricharankonidina/)
 
+## 📅 Day 26 — System Architecture Diagrams (Retail + Recruitment)
+
+**Task:** Created two professional architecture diagrams using diagrams.net:
+1. Retail Anomaly Detection System
+2. AI Recruitment & Resume Scoring System
+
+**Outputs Added:**
+- PNG + PDF diagrams
+- `/architecture/` folder in GitHub
+
+**Why this matters:**  
+Architecture diagrams demonstrate technical clarity and are used as evidence for original contributions and engineering documentation.
+
+**Status:** Completed.
+
 
 
 
