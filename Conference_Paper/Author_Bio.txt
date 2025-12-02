@@ -1,0 +1,2 @@
+Sri Charan Konidina — Independent AI researcher and engineer specializing in applied machine learning, anomaly detection, and hiring analytics. Author of the Retail AI Analytics Whitepaper (DOI: 10.5281/zenodo.17644837) and developer of production-focused Streamlit tools for recruitment automation.
+Contact: konidinasricharan@gmail.com

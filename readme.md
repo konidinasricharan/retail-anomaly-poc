@@ -433,6 +433,30 @@ Architecture diagrams demonstrate technical clarity and are used as evidence for
 
 **Status:** Completed.
 
+## 📅 Day 27 — Conference Submission Version (DOI Published)
+
+**Task:**  
+Converted the AI Recruitment System whitepaper into a formal *conference-style submission version* and published it with a DOI through Zenodo.  
+This counts as **extraordinary ability evidence** under:
+
+- Authorship of scholarly articles  
+- Original contributions of major significance  
+- Published work in the field  
+- Public dissemination of technical research  
+
+
+**DOI:**  
+10.5281/zenodo.17791779
+
+**Files Added to Repo:**  
+- `/conference/ai_recruitment_conference_paper.pdf`  
+- `/conference/ai_recruitment_conference_submission.zip`  
+
+**Why this matters:**  
+A conference submission + DOI is considered formal research dissemination and strengthens multiple criteria. This shows active participation in the scientific community and supports your claim of contributing original work to the field of AI-driven recruitment systems.
+
+**Status:** Completed.
+
 
 
 

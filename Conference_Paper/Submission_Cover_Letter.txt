@@ -1,0 +1,11 @@
+Dear Organizers,
+
+Please find attached our short paper titled "AI-Driven Recruitment System: LLM-Based Resume Scoring, Job Matching, and Hiring Recommendations" for consideration in [Workshop/Conference Name]. The submission describes a reproducible pipeline combining LLM-based resume evaluation and a Streamlit analytics dashboard for recruiter decision support.
+
+Author: Sri Charan Konidina (Independent Researcher)
+Contact: konidinasricharan@gmail.com.com
+
+Thank you for your time and consideration.
+
+Best regards,
+Sri Charan Konidina
