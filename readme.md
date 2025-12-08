@@ -457,6 +457,38 @@ A conference submission + DOI is considered formal research dissemination and st
 
 **Status:** Completed.
 
+## 🗓️ Day 28 — AI Job Description Classifier Module (ML Model + Streamlit UI)
+
+### 🎯 Goal  
+Build a machine-learning powered classifier that can automatically categorize job descriptions into job families using TF-IDF + Logistic Regression.  
+Add a Streamlit interface for interactive predictions.
+
+This module becomes a key part of the AI Recruitment Suite and counts as *Original Contribution* for evidence.
+
+---
+
+### 🧩 What I Built Today
+#### 1️⃣ **A robust ML training pipeline**
+- Automatically creates dataset if missing  
+- Trains TF-IDF + Logistic Regression  
+- Handles 125+ job description samples across 5 job families  
+- Saves model to: `job_classifier/model/job_classifier.pkl`
+
+#### 2️⃣ **A production-ready prediction function**
+- Handles class errors safely  
+- Returns ranked probability table  
+- Useful for O-1 “original contribution” evidence
+
+Features:
+- “Train Model Now” button  
+- Dataset preview  
+- Probability ranking table  
+- Predicted job family display  
+- Debug expander showing training paths, model classes, etc.
+
+Run command:
+```bash
+streamlit run job_classifier/job_classifier_streamlit.py
 
 
 
