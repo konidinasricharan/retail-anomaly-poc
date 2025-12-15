@@ -486,9 +486,53 @@ Features:
 - Predicted job family display  
 - Debug expander showing training paths, model classes, etc.
 
-Run command:
-```bash
-streamlit run job_classifier/job_classifier_streamlit.py
+## Run command:
+## ```bash
+## streamlit run job_classifier/job_classifier_streamlit.py.
+
+## 🗓️ Day 29 — AI Skill Extraction Engine (NER-Based NLP Module)
+
+### 🎯 Goal  
+Build an explainable **Skill Extraction Engine** that automatically identifies technical skills from job descriptions and resumes using lightweight NLP (NER-style keyword matching).
+
+This module strengthens the AI Recruitment Suite by adding transparent skill intelligence used in candidate evaluation and job matching.
+
+---
+
+### 🧩 What I Built Today
+
+#### 1️⃣ **NER-Style Skill Extraction Engine**
+- Rule-based NLP system using curated technical skill vocabulary
+- Extracts skills across multiple categories:
+  - Programming Languages  
+  - Data & Machine Learning  
+  - Cloud & DevOps  
+  - Data Engineering  
+  - Security  
+  - Tools
+- Designed for explainability and ATS-style interpretation
+
+#### 2️⃣ **Reusable Python Extraction Module**
+File: job_classifier/skill_extractor.py
+- Normalizes text
+- Uses regex-based matching
+- Returns structured skill categories
+- No external NLP dependencies required
+
+#### 3️⃣ **Interactive Streamlit Interface**
+File: job_classifier/skill_extractor_streamlit.py
+
+Features:
+- Paste job description or resume
+- One-click skill extraction
+- Grouped skill visualization
+- Clean recruiter-friendly UI
+
+### Run command:
+### ```bash
+### streamlit run job_classifier/skill_extractor_streamlit.py
+
+
 
 
 
