@@ -532,6 +532,45 @@ Features:
 ### ```bash
 ### streamlit run job_classifier/skill_extractor_streamlit.py
 
+## 🗓️ Day 30 — Resume Parsing Engine (PDF + Text Parser)
+
+### 🎯 Goal  
+Build a **Resume Parsing Engine** that extracts clean, structured text from PDF resumes and prepares the content for downstream AI modules such as skill extraction, resume scoring, and job matching.
+
+This module forms a core component of an ATS-style AI recruitment system.
+
+---
+
+### 🧩 What I Built Today
+
+#### 1️⃣ **PDF Resume Parsing Engine**
+- Extracts text from multi-page PDF resumes
+- Cleans and normalizes raw resume content
+- Removes noise, extra spaces, and non-ASCII characters
+- Produces usable plain text for NLP pipelines
+
+File:job_classifier/resume_parser.py
+
+---
+
+#### 2️⃣ **Interactive Streamlit Resume Upload UI**
+File:job_classifier/resume_parser_streamlit.py
+
+Features:
+- Upload PDF resumes
+- Automatic parsing and extraction
+- Scrollable text output for review
+- Ready for integration with skill and matching engines
+
+# Run command:
+- ```bash
+- streamlit run job_classifier/resume_parser_streamlit.py
+
+## 🧠 Relevance
+- Demonstrates applied NLP and document processing
+- Shows real-world ATS system design
+- Enables automated resume analysis workflows
+- Strengthens sustained original contribution evidence
 
 
 
