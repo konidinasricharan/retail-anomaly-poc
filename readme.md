@@ -572,6 +572,49 @@ Features:
 - Enables automated resume analysis workflows
 - Strengthens sustained original contribution evidence
 
+## 🗓️ Day 31 — Resume Skill Extraction (Parsed Resume → Skill Engine)
+
+### 🎯 Goal  
+Integrate the **Resume Parsing Engine (Day 30)** with the **Skill Extraction Engine (Day 29)** to automatically extract structured technical skills directly from uploaded PDF resumes.
+
+This creates a complete **resume understanding pipeline**, a core feature of ATS and AI recruitment systems.
+
+---
+
+### 🧩 What I Built Today
+
+#### 1️⃣ **End-to-End Resume Skill Extraction Pipeline**
+- Upload a PDF resume
+- Automatically parse resume text
+- Extract categorized technical skills
+- Display results in a clean, recruiter-friendly UI
+
+Pipeline flow:PDF Resume → Parsed Text → Skill Extraction → Structured Skill Output
+
+---
+
+#### 2️⃣ **Integrated Streamlit Application**
+File:
+job_classifier/resume_skill_extractor_streamlit.py
+
+Features:
+- PDF resume upload
+- Automatic text parsing
+- Skill extraction using NLP
+- Side-by-side view:
+  - Parsed resume text
+  - Extracted skills by category
+
+# Run command:
+- ```bash
+- streamlit run resume_skill_extractor_streamlit.py
+
+🧠 Relevance
+- Demonstrates multi-module system integration
+- Shows real-world ATS-style NLP workflow
+- Strengthens evidence of applied AI expertise
+- Adds depth to AI Recruitment Suite
+
 
 
 
