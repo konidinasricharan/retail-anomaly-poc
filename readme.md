@@ -615,6 +615,44 @@ Features:
 - Strengthens evidence of applied AI expertise
 - Adds depth to AI Recruitment Suite
 
+## 🗓️ Day 32 — Experience Similarity Model (TF-IDF Baseline)
+
+### 🎯 Goal  
+Add an **Experience Similarity Model** that measures how closely a candidate’s resume experience matches a job description using **TF-IDF vectorization and cosine similarity**.
+
+This module introduces **quantitative experience matching**, a core component of real-world ATS and AI recruitment systems.
+
+---
+
+### 🧩 What I Built Today
+
+#### 1️⃣ **Experience Similarity Engine**
+- Uses TF-IDF vectorization (unigrams + bigrams)
+- Computes cosine similarity between resume and job text
+- Outputs a normalized percentage score (0–100)
+- Fully explainable baseline model
+
+File:job_classifier/experience_similarity.py
+
+---
+
+#### 2️⃣ **Interactive Streamlit Interface**
+File:job_classifier/experience_similarity_streamlit.py
+
+Features:
+- Side-by-side resume and job description inputs
+- One-click experience similarity scoring
+- Percentage score display
+- Visual progress bar for match strength
+
+# Run command:
+- ```bash
+- streamlit run experience_similarity_streamlit.py
+
+
+
+
+
 
 
 
