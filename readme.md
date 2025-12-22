@@ -649,7 +649,52 @@ Features:
 - ```bash
 - streamlit run experience_similarity_streamlit.py
 
+## 🗓️ Day 33 — Unified Candidate Score (Skills + Experience + LLM)
 
+### 🎯 Goal  
+Build a **Unified Candidate Scoring Engine** that combines multiple evaluation signals into a single, explainable score used for candidate ranking and shortlisting.
+
+The unified score integrates:
+- Skill Match Score  
+- Experience Similarity Score  
+- LLM-Based Reasoning Score  
+
+This represents the **core decision logic** of the AI Recruitment System.
+
+---
+
+### 🧩 What I Built Today
+
+#### 1️⃣ **Unified Scoring Logic**
+- Weighted scoring formula combining objective and AI-driven metrics
+- Transparent and configurable weights
+- Produces a normalized final score (0–100)
+
+# Formula:
+- Final Score =
+- (Skill Match × 0.4) +
+- (Experience Similarity × 0.4) +
+- (LLM Reasoning × 0.2)
+
+# File:unified_score.py
+
+---
+
+#### 2️⃣ **Interactive Streamlit Scoring Interface**
+# File:unified_score_streamlit.py
+
+
+Features:
+- Adjustable sliders for each score component
+- One-click unified score calculation
+- Visual progress bar
+- Score contribution breakdown for explainability
+
+# Relevance
+- Demonstrates system-level AI design
+- Combines ML, NLP, and LLM reasoning
+- Mirrors real-world ATS scoring pipelines
+- Strengthens evidence of sustained original contribution
 
 
 
