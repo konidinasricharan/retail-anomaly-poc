@@ -3,8 +3,26 @@
 If you use this work, please cite:
 **Konidina, Sri Charan (2025). _Retail AI Analytics Whitepaper — Anomaly Detection, Real-Time Retail ML, and AI Recruitment Systems._ Zenodo. https://doi.org/10.5281/zenodo.17644837**
 
+# 🤖 AI Recruitment Suite — v1.1
 
+An end-to-end AI-powered recruitment system that automates resume parsing, skill extraction,
+experience similarity scoring, and unified candidate evaluation using explainable AI techniques.
 
+**Release Version:** v1.1  
+**Author:** Sri Charan Konidina  
+**Tech Stack:** Python, Streamlit, NLP, TF-IDF, LLMs  
+
+---
+
+## 🚀 What’s New in v1.1
+- Job Description Classification
+- Resume Parsing (PDF + Text)
+- Skill Extraction Engine
+- Experience Similarity Scoring (TF-IDF)
+- Unified Candidate Scoring Engine
+- Interactive Streamlit Dashboards
+
+---
 
 # Retail Anomaly Detection - Proof of Concept (PoC)
 
