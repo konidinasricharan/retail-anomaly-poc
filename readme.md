@@ -714,6 +714,47 @@ Features:
 - Mirrors real-world ATS scoring pipelines
 - Strengthens evidence of sustained original contribution
 
+## 🗓️ Day 34 — Publish Medium Article #3 (Resume Parsing Insights)
+
+## 🗓️ Day 35 — GitHub Release: Recruitment Suite v1.1
+
+## 🗓️ Day 36 — AI Ranking Dashboard V2 (Interactive Charts)
+
+### 🎯 Goal  
+Build **AI Ranking Dashboard V2**, an interactive visualization layer that enables recruiters to explore, rank, and analyze candidates using unified AI scores.
+
+This dashboard transforms model outputs into **human-centered decision intelligence**.
+
+---
+
+### 🧩 What I Built Today
+
+#### 1️⃣ **Interactive Candidate Ranking Dashboard**
+- Dynamic ranking based on unified AI score
+- Threshold-based filtering
+- Real-time updates via Streamlit
+
+File: job_classifier/ai_ranking_dashboard_v2.py
+
+---
+
+#### 2️⃣ **Visual Analytics**
+- Bar chart comparing candidate scores
+- Threshold reference line
+- Score distribution histogram
+- Combined table + chart view
+---
+# Run command:
+- ```bash
+- streamlit run ai_ranking_dashboard_v2.py
+---
+# 🧪 Example Output
+- Candidate A — 88%
+- Candidate B — 81%
+- Candidate C — 76%
+
+
+
 
 
 
