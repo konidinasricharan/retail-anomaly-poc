@@ -753,6 +753,44 @@ File: job_classifier/ai_ranking_dashboard_v2.py
 - Candidate B — 81%
 - Candidate C — 76%
 
+---
+
+## 📅 Day 37 — Paper #3: Embedding-Based Job Matching (Full Technical Paper)
+
+### 🎯 Objective
+Complete and publish a full research-style paper introducing an **embedding-based semantic matching engine** for AI-driven recruitment systems, extending beyond keyword and TF-IDF approaches.
+
+### 🧠 What Was Done
+- Authored a **complete technical paper** titled:  
+  **“Embedding-Based Semantic Matching for AI-Driven Recruitment Systems”**
+- The paper presents:
+  - Motivation and limitations of traditional ATS systems
+  - Semantic matching using text embeddings
+  - System architecture integration
+  - Evaluation against TF-IDF and keyword baselines
+  - Explainability and recruiter-centric insights
+- Structured as a **conference-ready research paper** with abstract, methodology, results, and future work.
+- Written fully in **Markdown** for reproducibility and easy conversion to PDF.
+
+### 📄 Artifacts Created
+- `papers/embedding_job_matching.md`  
+  (Full technical paper in Markdown format)
+
+### 🔗 Repository
+- GitHub:  
+  https://github.com/konidinasricharan/retail-anomaly-poc
+
+### 🏆 Evidence Alignment
+- **Original Contribution of Major Significance**
+- **Scholarly Authorship**
+- **Evidence of Advanced Expertise**
+- **Research Publication (submission-ready)**
+
+### 📌 Notes
+This paper strengthens the research narrative of the AI Recruitment Suite by introducing **semantic similarity modeling**, positioning the work closer to real-world ATS and enterprise hiring platforms. It is suitable for submission to workshops, conferences, arXiv, and DOI publication platforms.
+
+---
+
 
 
 
