@@ -1,0 +1,14 @@
+Isolation Forest:
+ Highest recall
+ Lower false positives
+ Best balance overall
+
+Statistical baselines:
+ Simpler
+ Less reliable
+ More false positives
+
+Model	         Precision	Recall	False Positives
+Isolation Forest  High	        High	Low
+Z-Score	          Medium	Medium	Medium
+IQR	          Low	        Medium	High

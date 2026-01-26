@@ -791,6 +791,25 @@ This paper strengthens the research narrative of the AI Recruitment Suite by int
 
 ---
 
+## Day 38 — Model Benchmarking
+
+We benchmarked the retail anomaly detection system against multiple baselines.
+
+### Compared Models
+- Isolation Forest (ML-based)
+- Z-Score Thresholding
+- Interquartile Range (IQR)
+
+### Metrics
+- Precision
+- Recall
+- False Positives
+
+### Results Summary
+Isolation Forest outperformed statistical baselines by achieving higher recall with fewer false positives, demonstrating the effectiveness of ML-based anomaly detection for retail analytics.
+
+This benchmarking adds research-grade validation and strengthens the system's technical credibility.
+
 
 
 
